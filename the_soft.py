@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 #THIS IS MY THING:
 #S=LOGITS
-#L=LABELS (0,..,1,0,...,0) I.E. 1 AT CORRECT LABEL 0 EVERYWHERE ELSE
+#L=LABELS it's the number of the label like '3' in the position of the data point you are looking at
 #R=REWARD PARAMETER
 #P=PUNISHMENT PARAMETER
 #SIG=SIGNIFACENCE PARAMATER
