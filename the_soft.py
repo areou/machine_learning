@@ -33,11 +33,11 @@ def Rob(s,L,r,p,sig,sof):
 		R.append([])
 		for j in range(0,len(s[l])):
 			if Q[l][j]<=sig*allQ[l] and j!=L[l]:
-				R[l].append(r*sof*s[l][j])
+				R[l].append((r*sof)+s[l][j])
 			if Q[l][j]>sig*allQ[l] and j!=L[l]:
 				R[l].append(s[l][j]-(p*Q[l][j]))
 			if j==L[l]:
-				R[l].append(r*s[l][j])
+				R[l].append(r+s[l][j])
 	
 	#print(len(R))
 	return R
