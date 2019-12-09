@@ -22,12 +22,12 @@ while happy:
 
 # Now change 'data' for what ever data you would like to test out as it stands I just use the testing data for cifar10	
 
-data=(X_test,y_test)
+data=[X_test,y_test]
 
 model = Sequential.from_config(config)
 
 model.set_weights(weights)
 
-the_deal = model.evaluate(X_train, yy)
+the_deal = model.evaluate(data[0], data[1])
 
 print('Your Data Accuracy: '+str(math.floor(the_deal[1]*100))+'%')
