@@ -4,6 +4,7 @@ I use this depository to collect all of my crazy ideas for machine learning. (ne
 
 ### Dependencies
 All programs will be written with the following dependencies:
+
 -[Python 3](https://www.python.org/download/releases/3.0/)
 
 -[NumPy](https://numpy.org/)
