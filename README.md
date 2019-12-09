@@ -1,6 +1,6 @@
 # machine_learning
 
-I use this depository to collect all of my crazy ideas for machine learning. (neural networks)
+I use this depository to collect all of my crazy ideas for machine learning (neural networks).
 
 ### Dependencies
 All programs will be written with the following dependencies:
