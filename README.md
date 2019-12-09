@@ -6,7 +6,7 @@ I use this depository to collect all of my crazy ideas for machine learning. (ne
 All programs will be written with the following dependencies:
 
 - [Python 3](https://www.python.org/download/releases/3.0/)
-- [{ickle](https://docs.python.org/3/library/pickle.html)
+- [Pickle](https://docs.python.org/3/library/pickle.html)
 - [NumPy](https://numpy.org/)
 - [TensorFlow](https://www.tensorflow.org/)
 - [Keras](https://keras.io/)
