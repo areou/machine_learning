@@ -29,8 +29,11 @@ while happy:
 		weights=unpickle('robfar_10_best_weights_71')
 		happy=False
 		
+	if which=='conv_0':
+		config=unpickle('robfar_10_config_conv_0')
+		weights=unpickle('robfar_10_conv_0')
 		
-	else:
+	if which!='conv_0' && which!='71':
 		
 		if counter==5:
 			print('\n too many attempts... sorry the program is shutting down')
