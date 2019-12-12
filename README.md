@@ -22,4 +22,4 @@ One of the first things I am exploring is knowledge distillation (KD). The basic
 
 ### Extracting Knowledge
 
-In most current approaches (like that in [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)) the objective is to take the softmax (probability like answers) of the expensive model and use this to help train a smaller model. It is believed (and backed up experimentally [Relational Knowledge Distillation](https://arxiv.org/abs/1904.05068) and others) that training a model to learn the relationships between identifiers will produce some of the best models.
+In most current approaches (like that in [Improved Knowledge Distillation via Teacher Assistant: Bridging the Gap Between Student and Teacher](https://arxiv.org/abs/1902.03393)) the objective is to take the softmax (probability like answers) of the expensive model and use this to help train a smaller model. It is believed (and backed up experimentally [Relational Knowledge Distillation](https://arxiv.org/abs/1904.05068) and others) that training a model to learn the relationships between identifiers will produce some of the best models.
